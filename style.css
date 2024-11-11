@@ -74,6 +74,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #1f2937;
+    padding-left: 30px;
 }
 
 .tile1-left {
@@ -87,7 +88,9 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
-    color: #e5e7eb;
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
 }
 
 .subtext {
@@ -97,10 +100,11 @@ body {
     flex-basis: auto;
     align-self: auto;
     order: 0;
+    font-size: 18px;
     color: #e5e7eb;
 }
 
-.sign-button {
+.sign-button-top {
     display: flex;
     flex-grow: 1;
     flex-shrink: 1;
@@ -142,9 +146,9 @@ body {
 }
 
 .tile2-item img {
-    max-width: 100%; /* Ensure the image takes full width of the item */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 10px; /* Add some space between the image and text */
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 .tile2-down .tile2-item:first-child {
@@ -154,3 +158,97 @@ body {
 .tile2-down .tile2-item:last-child {
     margin-right: 20px;
 }
+
+.tile3 {
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    padding: 100px;
+    margin-top: 15px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+	flex-grow: 2;
+	flex-shrink: 0;
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+}
+
+.quote_author {
+    display: flex;
+    flex-grow: 1;
+	flex-shrink: 0;
+    font-size: 20px;
+    font-weight: 1000;
+    width: 1350.8px;
+    justify-content: end;
+}
+
+.footer {
+    display: flex;
+    margin: 50px;
+    height: 100px;
+}
+
+.blu_box {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+    background-color: #3882f6;
+    width: 1590px;
+
+}
+
+.blu_box-item-0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	flex-grow: 1;
+	flex-shrink: 0;
+    padding-left: 100px;
+    color: white;
+}
+
+.blu_box-item-1 {
+    display: flex;
+	flex-grow: 1;
+	flex-shrink: 0;
+    align-items: center;
+}
+
+.button-custom {
+    background-color: #3882f6; /* Background color */
+    color: white; /* Text color */
+    border: 2px solid white; /* White border */
+    border-radius: 12px; /* Curved corners */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Transition effects */
+}
+
+.button-custom:hover {
+    background-color: #2a5bbf; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.button-custom-top {
+    background-color: #3882f6; /* Background color */
+    color: white; /* Text color */
+    border-radius: 12px; /* Curved corners */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-top: 5px;
+    transition: background-color 0.3s, transform 0.3s; /* Transition effects */
+}
+
+.button-custom-top:hover {
+    background-color: #2a5bbf; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
